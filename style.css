@@ -35,6 +35,11 @@ body{
     background-color: black;
     position: relative;
 }
+#page3 h1{
+    font-size: 2.3vw;
+    text-align: center;
+    padding-top: 40px;
+}
 #nav{
     height: 10vh;
     width: 100vw;
@@ -127,4 +132,33 @@ body{
     bottom: 26%;
     font-weight: 500;
     left: 10%;
+}
+#page3-div{
+
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.elemm{
+    margin-top: 40px;
+    height: 70%;
+    width: 25%;
+    background-color: rgba(79, 64, 64, 0.34);
+    border-radius: 20px;
+    /* display: inline-block;
+    margin-left: 80px; */
+}
+.elemm h4{
+    font-size: 25px;
+    color: orangered;
+    padding: 10px 20px;
+    width: 70%;
+}
+.elemm p{
+    font-size: 10px;
+    padding: 10px 20px;
+    width: 60%;
 }
